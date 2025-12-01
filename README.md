@@ -2,7 +2,7 @@
 
 The algorithm and application were published [here](./a-file-comparison-program.pdf).
 
-Source code (almost identical) with the original published version is in file [fcomp.c](./fcomp.c).
+Source code - almost identical with the original version - is in file [fcomp.c](./fcomp.c).
 
 To compile the original version, use the following command:
 
@@ -10,7 +10,7 @@ To compile the original version, use the following command:
 $ gcc -std=c89 fcomp.c -o fcomp
 ```
 
-Then you can try how it works:
+Then you can give it a try:
 
 ```shell
 $ ./fcomp file1.txt file2.txt
