@@ -1,4 +1,4 @@
-# fcomp - a file comparison program
+# A file comparison program
 
 The algorithm and application were published [here](./a-file-comparison-program.pdf).
 
