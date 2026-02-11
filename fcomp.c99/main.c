@@ -119,7 +119,7 @@ int in_file(char* filename, char* P[])
         if (lines >= MAXLINES) fatal("File is too large for fcomp.");
         if ((save = malloc(strlen(buf) + 1)) == NULL) fatal("Not enough room to save the files.");
         P[lines++] = save;
-        for (b = buf; *save++ = *b++;); /* copy the line */
+        for (b = buf; (*save++ = *b++);); /* copy the line */
     }
     fclose(fp);
     return lines;
